@@ -39,9 +39,9 @@ Control Control(
 );
 
 Adder Add_PC(
-    .data1_in   (pc_i),
+    .data1_in   (pc_o),
     .data2_in   (instr_size),
-    .data_o     (pc_o)
+    .data_o     (pc_i)
 );
 
 PC PC(
@@ -103,7 +103,7 @@ always @(*) begin
     IDLE: begin
         if(start_i) begin
             state_w = START;
-        end
+	end
         else begin 
             state_w = IDLE;
         end

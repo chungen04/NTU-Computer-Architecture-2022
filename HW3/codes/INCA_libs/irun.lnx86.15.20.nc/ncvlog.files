@@ -1,0 +1,16 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/testbench.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/Adder.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/ALU_Control.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/ALU.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/Control.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/CPU.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/Instruction_Memory.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/MUX32.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/PC.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/Registers.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/Sign_Extend.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/testbench.v

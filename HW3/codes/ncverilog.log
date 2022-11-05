@@ -1,3 +1,56 @@
+ncverilog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Nov 05, 2022 at 18:24:48 CST
+ncverilog
+	+access+rw
+	testbench.v
+	Adder.v
+	ALU_Control.v
+	ALU.v
+	Control.v
+	CPU.v
+	Instruction_Memory.v
+	MUX32.v
+	PC.v
+	Registers.v
+	Sign_Extend.v
+	testbench.v
+Recompiling... reason: file './PC.v' is newer than expected.
+	expected: Sat Nov  5 18:23:23 2022
+	actual:   Sat Nov  5 18:24:47 2022
+file: PC.v
+	module worklib.PC:v
+		errors: 0, warnings: 0
+file: testbench.v
+module TestBench;
+               |
+ncvlog: *W,RECOME (testbench.v,3|15): recompiling design unit worklib.TestBench:v.
+	First compiled from line 3 of testbench.v.
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.PC:v <0x519763c0>
+			streams:   3, words:   415
+		worklib.TestBench:v <0x10028824>
+			streams:   6, words: 14755
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:             11      11
+		Registers:           16      16
+		Scalar wires:         6       -
+		Expanded wires:      32       1
+		Vectored wires:      14       -
+		Always blocks:       10      10
+		Initial blocks:       1       1
+		Cont. assignments:    8      12
+		Pseudo assignments:   8       8
+	Writing initial simulation snapshot: worklib.TestBench:v
+Loading snapshot worklib.TestBench:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
 PC =          0
 Registers
 x0     =           0, x8(s0)  =           0, x16(a6) =           0, x24(s8)  =           0
@@ -358,3 +411,7 @@ x6(t1) =           0, x14(a4) =          13, x22(s6) =           0, x30(t5)  =  
 x7(t2) =           0, x15(a5) =           0, x23(s7) =           0, x31(t6)  =          12
 
 
+Simulation complete via $finish(1) at time 1525 NS + 0
+./testbench.v:53         $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Nov 05, 2022 at 18:24:50 CST  (total: 00:00:02)

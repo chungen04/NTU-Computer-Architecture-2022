@@ -1,0 +1,11 @@
+1667643887 /home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/PC.v
+1667638974 /home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/Sign_Extend.v
+1667638974 /home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/ALU_Control.v
+1667638974 /home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/Registers.v
+1667638974 /home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/Control.v
+1667638974 /home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/testbench.v
+1667638974 /home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/Adder.v
+1667638974 /home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/ALU.v
+1667643708 /home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/CPU.v
+1667638974 /home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/MUX32.v
+1667638974 /home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/HW3/codes/Instruction_Memory.v

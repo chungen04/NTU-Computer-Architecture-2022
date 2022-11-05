@@ -1,0 +1,28 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx86.15.20.nc
+-RUNMODE
+testbench.v
+Adder.v
+ALU_Control.v
+ALU.v
+Control.v
+CPU.v
+Instruction_Memory.v
+MUX32.v
+PC.v
+Registers.v
+Sign_Extend.v
+testbench.v
+-CDSLIB
+./INCA_libs/irun.lnx86.15.20.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.15.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./INCA_libs/irun.lnx86.15.20.nc/xllibs
+-ALLOWUNBOUND
