@@ -4,7 +4,7 @@ module ALU_Control(
     ALUCtrl_o
 );
 
-input [9:0] funct_i; // indicate immediate field
+input [9:0] funct_i; // indicate func code + opcode
 input [1:0] ALUOp_i;
 output [2:0] ALUCtrl_o;
 
@@ -28,14 +28,14 @@ localparam SRA = 5;
 localparam AND = 6; // code received in ALU. addi is same as add
 // opcode is decoded by controller
 
-reg ALUCtrl;
+reg [2:0] ALUCtrl;
 
 assign ALUCtrl_o = ALUCtrl;
 
 always @(*) begin
-    case(funct_i)
+    case(ALUOp_i)
         R_TYPE: begin
-            case(ALUOp_i)
+            case(funct_i)
             AND_FUNC: begin
                 ALUCtrl = AND;
             end
@@ -57,7 +57,7 @@ always @(*) begin
             endcase 
         end
         I_TYPE: begin
-            case(ALUOp_i[2:0])
+            case(funct_i[2:0])
             ADDI_FUNC: begin
                 ALUCtrl = ADD;
             end

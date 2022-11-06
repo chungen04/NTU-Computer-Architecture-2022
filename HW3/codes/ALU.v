@@ -42,7 +42,7 @@ always @(*) begin
         data = data1_i * data2_i;
     end
     SRA: begin
-        data = data1_i >> data2_i;
+        data = data1_i >> data2_i[4:0];
     end
     AND: begin
         data = data1_i & data2_i;

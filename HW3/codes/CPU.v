@@ -15,7 +15,6 @@ localparam START = 1;
 reg state_w;
 reg state_r;
 
-
 wire [31:0] ALUSrc_Mux_to_ALU;
 wire [31:0] Read2_to_Mux;
 wire [31:0] SignExt_to_Mux;
@@ -107,7 +106,7 @@ always @(*) begin
         else begin 
             state_w = IDLE;
         end
-    end
+    end   
     START: begin
         state_w = START;
     end
