@@ -63,33 +63,6 @@ wire [1:0] forwardB;
 wire [32:0] EX_MUX_to_Rd1; // MUX in rd1 to alu
 wire [32:0] EX_Rd2_MUX_to_MUX; // big MUX to small mux
 
-//hazard detection unit
-wire PCWrite; // hazard detection to pc
-wire stall;
-wire NoOp;
-
-//branching
-wire Branching;
-wire [31:0] IF_pc_mux_i;
-wire [31:0] ID_pc; // for branching addr calculation
-
-MUX32 PC_Branching(
-    .data1_i(IF_pc_i),
-    .data2_i(ID_pc + (ID_ImmGen_toRegIDEX)),
-    .select_i(Branching && (ID_Rd1_toRegIDEX == ID_Rd2_toRegIDEX)),
-    .data_o(IF_pc_mux_i)
-);
-
-Hazard_Detection_Unit Hazard_Detection_Unit(
-    .EX_MemRead_i(EX_MemRead_toRegEXMEM),
-    .EX_RegDest_i(EX_RegDest),
-    .ID_Rs1_i(ID_instr_fromIF[19:15]),
-    .ID_Rs2_i(ID_instr_fromIF[24:20]),
-    .NoOp_o(NoOp), 
-    .stall_o(stall),
-    .PCWrite_o(PCWrite)
-);
-
 Forwarding_Unit forwarding_unit(
     .EX_Rs1_i(EX_Rs1_to_forwardUnit),
     .EX_Rs2_i(EX_Rs2_to_forwardUnit),
@@ -141,14 +114,12 @@ ALU ALU(
 
 Control Control(
     .Op_i(ID_instr_fromIF[6:0]), // 6:0
-    .NoOp_i(NoOp),
     .ALUOp_o(ID_ALUOp_toRegIDEX), // 1:0
     .ALUSrc_o(ID_ALUSrc_toRegIDEX), // 1
     .RegWrite_o(ID_RegWrite_toRegIDEX), // 1
     .MemRead_o(ID_MemRead_toRegIDEX), // 1
     .MemWrite_o(ID_MemWrite_toRegIDEX), // 1
-    .MemtoReg_o(ID_MemtoReg_toRegIDEX), // 1
-    .Branching_o(Branching);
+    .MemtoReg_o(ID_MemtoReg_toRegIDEX) // 1
 );
 
 Data_Memory Data_Memory(
@@ -188,8 +159,8 @@ PC PC(
     .clk_i(clk_i), // 1
     .rst_i(rst_i), // 1
     .start_i(start_i), // 1
-    .PCWrite_i(PCWrite), // 1; fixed in control hazard
-    .pc_i(IF_pc_mux_i), // 31:0
+    .PCWrite_i(1), // 1; fixed in control hazard
+    .pc_i(IF_pc_i), // 31:0
     .pc_o(IF_pc_o) // 31:0
 );
 
@@ -206,11 +177,7 @@ Registers Registers(
 
 RegIFID RegIFID(
     .instr_i(IF_instr_mem_o), // 31:0
-    .instr_o(ID_instr_fromIF), // 31:0s
-    .flush(Branching && (ID_Rd1_toRegIDEX == ID_Rd2_toRegIDEX)),
-    .stall(stall),
-    .pc_i(IF_pc_i),
-    .pc_o(ID_pc),
+    .instr_o(ID_instr_fromIF), // 31:0
     .clk(clk_i) // 1
 );
 
