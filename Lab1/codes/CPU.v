@@ -60,8 +60,8 @@ wire [4:0] EX_Rs1_to_forwardUnit;
 wire [4:0] EX_Rs2_to_forwardUnit;
 wire [1:0] forwardA;
 wire [1:0] forwardB;
-wire [32:0] EX_MUX_to_Rd1; // MUX in rd1 to alu
-wire [32:0] EX_Rd2_MUX_to_MUX; // big MUX to small mux
+wire [31:0] EX_MUX_to_Rd1; // MUX in rd1 to alu
+wire [31:0] EX_Rd2_MUX_to_MUX; // big MUX to small mux
 
 //hazard detection unit
 wire PCWrite; // hazard detection to pc
@@ -80,13 +80,13 @@ MUX32 PC_Branching(
     .data_o(IF_pc_mux_i)
 );
 
-Hazard_Detection_Unit Hazard_Detection_Unit(
+Hazard_Detection Hazard_Detection(
     .EX_MemRead_i(EX_MemRead_toRegEXMEM),
     .EX_RegDest_i(EX_RegDest),
     .ID_Rs1_i(ID_instr_fromIF[19:15]),
     .ID_Rs2_i(ID_instr_fromIF[24:20]),
     .NoOp_o(NoOp), 
-    .stall_o(stall),
+    .Stall_o(stall),
     .PCWrite_o(PCWrite)
 );
 
@@ -101,7 +101,7 @@ Forwarding_Unit forwarding_unit(
     .forwardB_o(forwardB)
 );
 
-MUX32_2 EX_Rd1(
+MUX32_2 EX_Rd1_to_ALU(
     .data00_i(EX_Rd1),
     .data01_i(WB_RegWriteData),
     .data10_i(MEM_MemAddr_or_ALUResult),
@@ -110,7 +110,7 @@ MUX32_2 EX_Rd1(
     .data_o(EX_MUX_to_Rd1)
 );
 
-MUX32_2 EX_Rd2(
+MUX32_2 EX_Rd2_to_ALU(
     .data00_i(EX_Rd2),
     .data01_i(WB_RegWriteData),
     .data10_i(MEM_MemAddr_or_ALUResult),
@@ -121,7 +121,7 @@ MUX32_2 EX_Rd2(
 
 Adder PC_Adder(
     .data1_in(IF_pc_o), // 31:0
-    .data2_in(31'b100), // 31:0
+    .data2_in(32'b100), // 31:0
     .data_o(IF_pc_i) // 31:0
 );
 
@@ -148,7 +148,7 @@ Control Control(
     .MemRead_o(ID_MemRead_toRegIDEX), // 1
     .MemWrite_o(ID_MemWrite_toRegIDEX), // 1
     .MemtoReg_o(ID_MemtoReg_toRegIDEX), // 1
-    .Branching_o(Branching);
+    .Branch_o(Branching)
 );
 
 Data_Memory Data_Memory(
@@ -275,5 +275,11 @@ RegMEMWB RegMEMWB(
     .RegDest_o(WB_RegDest), // 4:0
     .clk(clk_i) // 1
 );
+
+//for binding Flush...
+reg Flush;
+always @(*) begin
+    Flush = Branching && (ID_Rd1_toRegIDEX == ID_Rd2_toRegIDEX);
+end
 
 endmodule

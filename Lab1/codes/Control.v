@@ -7,18 +7,18 @@ module Control(
     MemRead_o,
     MemWrite_o,
     MemtoReg_o,
-    Branching_o
+    Branch_o
 );
 
 input [6:0] Op_i;
-input NoOp;
+input NoOp_i;
 output [1:0] ALUOp_o;
 output ALUSrc_o;
 output RegWrite_o;
 output MemRead_o;
 output MemWrite_o;
 output MemtoReg_o;
-output Branching_o;
+output Branch_o;
 
 localparam R_TYPE = 7'b0110011;
 localparam I_TYPE = 7'b0010011;
@@ -41,7 +41,7 @@ assign RegWrite_o = RegWrite;
 assign MemRead_o = MemRead;
 assign MemWrite_o = MemWrite;
 assign MemtoReg_o = MemtoReg;
-assign Branching_o = Branching;
+assign Branch_o = Branching;
 
 always @(*) begin
     if(!NoOp_i) begin

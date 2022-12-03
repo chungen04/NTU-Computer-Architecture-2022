@@ -1,10 +1,10 @@
-module Hazard_Detection_Unit(
+module Hazard_Detection(
     EX_MemRead_i,
     EX_RegDest_i,
     ID_Rs1_i,
     ID_Rs2_i,
     NoOp_o, // go to mux between control and ID/EX: as pg 30 of slide
-    stall_o,// as IF/IDWrite signal in pg 30 of slide
+    Stall_o,// as IF/IDWrite signal in pg 30 of slide
     PCWrite_o
 );
 
@@ -18,7 +18,7 @@ input [4:0] EX_RegDest_i;
 input [4:0] ID_Rs1_i;
 input [4:0] ID_Rs2_i;
 output NoOp_o;
-output stall_o;
+output Stall_o;
 output PCWrite_o;
 
 reg NoOp;
@@ -26,13 +26,11 @@ reg stall;
 reg PCWrite;
 
 assign NoOp_o = NoOp;
-assign stall_o = stall;
+assign Stall_o = stall;
 assign PCWrite_o = PCWrite;
 
 always @(*) begin 
-    if(EX_MemRead_i && \
-        (EX_RegDest_i == ID_Rs1_i || EX_RegDest_i == ID_Rs2_i) \
-    )begin
+    if(EX_MemRead_i && (EX_RegDest_i == ID_Rs1_i || EX_RegDest_i == ID_Rs2_i) )begin
         NoOp = 1;
         stall = 1;
         PCWrite = 0;
