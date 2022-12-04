@@ -91,17 +91,26 @@ always @(*) begin
             MemtoReg = 0;
             Branching = 1;
         end
+        default: begin
+            ALUOp = 0;
+            RegWrite = 0;
+            ALUSrc = 0; // can be treated as I-TYPE
+            MemRead = 0;
+            MemWrite = 0;
+            MemtoReg = 0;
+            Branching = 0;
+        end
         endcase
     end
-else begin
-        ALUOp = 0;
-        RegWrite = 0;
-        ALUSrc = 0;
-        MemRead = 0;
-        MemWrite = 0;
-        MemtoReg = 0;
-        Branching = 0;
+    else begin
+            ALUOp = 0;
+            RegWrite = 0;
+            ALUSrc = 0;
+            MemRead = 0;
+            MemWrite = 0;
+            MemtoReg = 0;
+            Branching = 0;
+        end
     end
-end
 
 endmodule

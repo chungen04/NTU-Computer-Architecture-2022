@@ -1,0 +1,24 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
++access+rw
+Adder.v
+ALU_Control.v
+ALU.v
+Control.v
+CPU.v
+Data_Memory.v
+Forwarding_Unit.v
+Hazard_Detection.v
+ImmGen.v
+Instruction_Memory.v
+MUX32_2.v
+MUX32.v
+PC.v
+RegEXMEM.v
+RegIDEX.v
+RegIFID.v
+Registers.v
+RegMEMWB.v
+testbench.v
