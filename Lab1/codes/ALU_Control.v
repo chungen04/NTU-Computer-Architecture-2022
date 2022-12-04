@@ -18,6 +18,7 @@ localparam SUB_FUNC = 10'b0100000000;
 localparam MUL_FUNC = 10'b0000001000;
 localparam ADDI_FUNC = 3'b000;
 localparam SRAI_FUNC = 3'b101;
+localparam LW_SW_FUNC = 3'b010;
 
 localparam ADD = 0;
 localparam XOR = 1;
@@ -63,6 +64,9 @@ always @(*) begin
             end
             SRAI_FUNC: begin
                 ALUCtrl = SRA;
+            end
+            LW_SW_FUNC:begin
+                ALUCtrl = ADD;
             end
             endcase
         end

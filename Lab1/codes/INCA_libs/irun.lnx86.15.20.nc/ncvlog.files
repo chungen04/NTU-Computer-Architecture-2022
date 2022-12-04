@@ -1,0 +1,23 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/Adder.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/ALU_Control.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/ALU.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/Control.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/CPU.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/Data_Memory.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/Forwarding_Unit.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/Hazard_Detection.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/ImmGen.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/Instruction_Memory.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/MUX32_2.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/MUX32.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/PC.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/RegEXMEM.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/RegIDEX.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/RegIFID.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/Registers.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/RegMEMWB.v
+/home/raid7_2/userb09/b09027/NTU-Computer-Architecture-2022/Lab1/codes/testbench.v
