@@ -1,57 +1,3 @@
-ncverilog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s084: Started on Dec 05, 2022 at 04:34:35 CST
-ncverilog
-	+access+rw
-	Adder.v
-	ALU_Control.v
-	ALU.v
-	Control.v
-	CPU.v
-	Data_Memory.v
-	Forwarding_Unit.v
-	Hazard_Detection.v
-	ImmGen.v
-	Instruction_Memory.v
-	MUX32_2.v
-	MUX32.v
-	PC.v
-	RegEXMEM.v
-	RegIDEX.v
-	RegIFID.v
-	Registers.v
-	RegMEMWB.v
-	testbench.v
-Recompiling... reason: file './CPU.v' is newer than expected.
-	expected: Mon Dec  5 04:28:08 2022
-	actual:   Mon Dec  5 04:34:28 2022
-file: CPU.v
-	module worklib.CPU:v
-		errors: 0, warnings: 0
-		Caching library 'worklib' ....... Done
-	Elaborating the design hierarchy:
-	Building instance overlay tables: .................... Done
-	Generating native compiled code:
-		worklib.CPU:v <0x37647f70>
-			streams:   9, words:  1476
-		worklib.TestBench:v <0x42be2d06>
-			streams:   6, words: 24466
-	Building instance specific data structures.
-	Loading native compiled code:     .................... Done
-	Design hierarchy summary:
-		              Instances  Unique
-		Modules:             22      19
-		Registers:           57      56
-		Scalar wires:        28       -
-		Vectored wires:      46       -
-		Always blocks:       18      17
-		Initial blocks:       1       1
-		Cont. assignments:    9      51
-		Pseudo assignments:  11      11
-	Writing initial simulation snapshot: worklib.TestBench:v
-Loading snapshot worklib.TestBench:v .................... Done
-*Verdi* Loading libsscore_ius152.so
-ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
-ncsim> run
 cycle =           0, Start = 1, Stall = 0, Flush = 0
 PC =          0
 Registers
@@ -1396,7 +1342,3 @@ Data Memory: 0x18 =          0
 Data Memory: 0x1C =         68
 
 
-Simulation complete via $finish(1) at time 3250 NS + 0
-./testbench.v:81         $finish;
-ncsim> exit
-TOOL:	ncverilog	15.20-s084: Exiting on Dec 05, 2022 at 04:34:39 CST  (total: 00:00:04)

@@ -75,7 +75,7 @@ wire [31:0] ID_pc; // for branching addr calculation
 
 MUX32 PC_Branching(
     .data1_i(IF_pc_i),
-    .data2_i(ID_pc + (ID_ImmGen_toRegIDEX)),
+    .data2_i(ID_pc + ((ID_ImmGen_toRegIDEX)<<1)),
     .select_i(Branching && (ID_Rd1_toRegIDEX == ID_Rd2_toRegIDEX)),
     .data_o(IF_pc_mux_i)
 );
@@ -209,7 +209,7 @@ RegIFID RegIFID(
     .instr_o(ID_instr_fromIF), // 31:0s
     .flush(Branching && (ID_Rd1_toRegIDEX == ID_Rd2_toRegIDEX)),
     .stall(stall),
-    .pc_i(IF_pc_i),
+    .pc_i(IF_pc_o),
     .pc_o(ID_pc),
     .clk(clk_i) // 1
 );

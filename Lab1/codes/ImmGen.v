@@ -21,8 +21,8 @@ always @(*) begin
     else if(data_i[6:0] == 7'b0100011) begin // sw
         data = {{20{data_i[31]}}, data_i[31:25], data_i[11:7]};
     end
-    else if(data_i[6:0] == 7'b0100011) begin // beq
-        data = {{19{data_i[31]}}, data_i[31], data_i[7], data[30:25], data[11:8]};
+    else if(data_i[6:0] == 7'b1100011) begin // beq
+        data = {{20{data_i[31]}}, data_i[31], data_i[7], data_i[30:25], data_i[11:8]};
     end
     else begin
         data = 32'b0;

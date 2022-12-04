@@ -93,9 +93,9 @@ argv[18]=Registers.v
 argv[19]=RegMEMWB.v
 argv[20]=testbench.v
 94 profile - 100
-          CPU/Mem usage: 0.100 sys,  1.600 user,  68.89M sys,  0.00M vm
+          CPU/Mem usage: 0.110 sys,  1.570 user,  68.88M sys,  0.00M vm
 95 VC callback profile - scalar:0 vector:0
-96 Mon Dec  5 02:46:21 2022
+96 Mon Dec  5 04:34:39 2022
 97 pliAppInit
 98 FSDB_GATE is disabled.
 99 Enable Parallel Dumping.

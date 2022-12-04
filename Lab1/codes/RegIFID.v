@@ -31,6 +31,7 @@ always @(posedge clk) begin
     end
     else begin
         instr <= 32'd0;
+        pc <= pc_i;
     end
 end
 
