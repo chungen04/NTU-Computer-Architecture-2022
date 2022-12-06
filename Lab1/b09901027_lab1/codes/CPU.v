@@ -155,7 +155,7 @@ Data_Memory Data_Memory(
     .clk_i(clk_i), // 1
     .addr_i(MEM_MemAddr_or_ALUResult), // 31:0
     .MemRead_i(MEM_MemRead), // 1
-    .MemWrite_i(MEM_MemWrite), // 1
+    .MemWrite_i(MEM_MemWrite && (MEM_MemWrite !== 1'bx)), // 1
     .data_i(MEM_MemWriteData), // 31:0
     .data_o(MEM_MemReadData) // 31:0
 );
@@ -199,7 +199,7 @@ Registers Registers(
     .RS2addr_i(ID_instr_fromIF[24:20]), // 4:0
     .RDaddr_i(WB_RegDest),  // 4:0
     .RDdata_i(WB_RegWriteData), // 31:0
-    .RegWrite_i(WB_RegWrite), // 1
+    .RegWrite_i(WB_RegWrite && !(WB_RegWrite === 1'bx)), // 1
     .RS1data_o(ID_Rd1_toRegIDEX),  // 31:0
     .RS2data_o(ID_Rd2_toRegIDEX) // 31:0
 );
