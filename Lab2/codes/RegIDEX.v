@@ -16,6 +16,7 @@ module RegIDEX(
     last_flush_i,
     flush,
     target_PC_i,
+    pc_i,
     RegWrite_o,
     MemtoReg_o,
     MemRead_o,
@@ -32,6 +33,7 @@ module RegIDEX(
     Branch_o,
     last_flush_o,
     target_PC_o,
+    pc_o,
     clk
 );
 
@@ -53,6 +55,7 @@ input Branch_i;
 input last_flush_i;
 input flush;
 input [31:0] target_PC_i;
+input [31:0] pc_i;
 output RegWrite_o;
 output MemtoReg_o;
 output MemRead_o;
@@ -69,6 +72,7 @@ output [4:0] Rs2_o;
 output Branch_o;
 output last_flush_o;
 output [31:0] target_PC_o;
+output [31:0] pc_o;
 
 reg RegWrite;
 reg MemtoReg;
@@ -85,7 +89,8 @@ reg [4:0] Rs1;
 reg [4:0] Rs2;
 reg Branching;
 reg last_flush;
-reg target_PC;
+reg [31:0] target_PC;
+reg [31:0] pc;
 
 assign RegWrite_o = RegWrite;
 assign MemtoReg_o = MemtoReg;
@@ -103,6 +108,7 @@ assign Rs2_o = Rs2;
 assign Branch_o = Branching;
 assign last_flush_o = last_flush;
 assign target_PC_o = target_PC;
+assign pc_o = pc;
 
 always @(posedge clk) begin
     if(!flush) begin
@@ -122,6 +128,7 @@ always @(posedge clk) begin
         Branching <= Branch_i;
         last_flush <= last_flush_i;
         target_PC <= target_PC_i;
+        pc <= pc_i;
     end
     else begin
         RegWrite <= 0;
@@ -140,6 +147,7 @@ always @(posedge clk) begin
         Branching <= 0;
         last_flush <= 0;
         target_PC <= 0;
+        pc <= 0;
     end
 end
 

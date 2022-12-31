@@ -83,6 +83,8 @@ wire EX_BEQ_flush; // indicate flush from beq
 wire [31:0] EX_TargetPC;
 wire [31:0] PC_ID_BranchingTarget;
 
+wire [31:0] EX_pc;
+
 // always @(*) begin
 assign EX_BEQ_flush = (!EX_last_flush && EX_Branching && (EX_ALU_toRegEXMEM == 0)) || (EX_last_flush && EX_Branching && (EX_ALU_toRegEXMEM != 0));
     //EX_Branching indicates last is branching instr. EX last didn't flush, but actually branch is taken.
@@ -106,8 +108,8 @@ MUX32 PC_ID_Branching(
 
 MUX32 PC_EX_Branching(
     .data1_i(PC_ID_BranchingTarget),
-    .data2_i(EX_TargetPC),
-    .select_i(EX_Branching),
+    .data2_i((EX_ALU_toRegEXMEM == 0)? EX_TargetPC: EX_pc+4),
+    .select_i(EX_BEQ_flush),
     .data_o(IF_pc_mux_i)
 );
 
@@ -260,8 +262,9 @@ RegIDEX ID_EX(
     .Rs1_i(ID_instr_fromIF[19:15]),
     .Rs2_i(ID_instr_fromIF[24:20]),
     .Branch_i(ID_Branching),
-    .last_flush_i(Branching && predictor),
+    .last_flush_i(ID_Branching && predictor),
     .target_PC_i(ID_pc + ((ID_ImmGen_toRegIDEX)<<1)),
+    .pc_i(ID_pc),
     .RegWrite_o(EX_RegWrite_toRegEXMEM), // 1
     .MemtoReg_o(EX_MemtoReg_toRegEXMEM), // 1
     .MemRead_o(EX_MemRead_toRegEXMEM), // 1
@@ -278,6 +281,7 @@ RegIDEX ID_EX(
     .Branch_o(EX_Branching),
     .last_flush_o(EX_last_flush),
     .target_PC_o(EX_TargetPC),
+    .pc_o(EX_pc),
     .clk(clk_i) // 1
 );
 

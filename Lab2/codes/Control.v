@@ -85,7 +85,7 @@ always @(*) begin
         BEQ: begin
             ALUOp = 2; // dierectly indicate operation is beq
             RegWrite = 0;
-            ALUSrc = 1; // BEQ is same as R-TYPE
+            ALUSrc = 0; // BEQ is same as R-TYPE
             MemRead = 0;
             MemWrite = 0;
             MemtoReg = 0;

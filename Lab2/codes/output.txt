@@ -106,7 +106,7 @@ Data Memory: 0x1C =      0
 cycle =      5, PC =     20, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
 x1 =      0, x9  =      0, x17 =      0, x25 =    -25
 x2 =      0, x10 =      0, x18 =      0, x26 =    -26
 x3 =      0, x11 =      0, x19 =      0, x27 =    -27
@@ -127,9 +127,9 @@ Data Memory: 0x1C =      0
 cycle =      6, PC =     24, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
 x1 =      0, x9  =      0, x17 =      0, x25 =    -25
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
 x3 =      0, x11 =      0, x19 =      0, x27 =    -27
 x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
@@ -148,11 +148,11 @@ Data Memory: 0x1C =      0
 cycle =      7, PC =     28, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
 x1 =      0, x9  =      0, x17 =      0, x25 =    -25
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
 x3 =      0, x11 =      0, x19 =      0, x27 =    -27
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
 x7 =      0, x15 =      0, x23 =      0, x31 =     62
@@ -169,14 +169,14 @@ Data Memory: 0x1C =      0
 cycle =      8, PC =     32, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
 x1 =      0, x9  =      0, x17 =      0, x25 =    -25
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
 x3 =      0, x11 =      0, x19 =      0, x27 =    -27
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -187,17 +187,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =      9, PC =     32, 
+cycle =      9, PC =     36, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
 x3 =      0, x11 =      0, x19 =      0, x27 =    -27
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -208,17 +208,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     10, PC =     36, 
-Predict =      1, IFID_Flush =      1
+cycle =     10, PC =     40, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
 x3 =      0, x11 =      0, x19 =      0, x27 =    -27
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -229,39 +229,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     11, PC =     40, 
-Predict =      1, IFID_Flush =      x
-ALU_out = 4294967295
-Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
-x5 =      0, x13 =      0, x21 =      0, x29 =     58
-x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
-Data Memory: 0x00 =      5
-Data Memory: 0x04 =      6
-Data Memory: 0x08 =     10
-Data Memory: 0x0C =     18
-Data Memory: 0x10 =     29
-Data Memory: 0x14 =      0
-Data Memory: 0x18 =      0
-Data Memory: 0x1C =      0
-
-
-cycle =     12, PC =      0, 
+cycle =     11, PC =     44, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -272,17 +250,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     13, PC =      4, 
+cycle =     12, PC =     48, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -293,17 +271,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     14, PC =      8, 
+cycle =     13, PC =     52, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -314,17 +292,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     15, PC =     12, 
+cycle =     14, PC =     56, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -335,17 +313,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     16, PC =     16, 
+cycle =     15, PC =     60, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -356,17 +334,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     17, PC =     20, 
+cycle =     16, PC =     64, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -377,17 +355,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     18, PC =     24, 
+cycle =     17, PC =     68, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -398,17 +376,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     19, PC =     28, 
+cycle =     18, PC =     72, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -419,17 +397,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     20, PC =     32, 
+cycle =     19, PC =     76, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -440,17 +418,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     21, PC =     32, 
+cycle =     20, PC =     80, 
 Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -461,17 +439,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     22, PC =     36, 
-Predict =      1, IFID_Flush =      1
+cycle =     21, PC =     84, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -482,18 +460,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     23, PC =     40, 
-Predict =      1, IFID_Flush =      x
-ALU_out = 4294967295
+cycle =     22, PC =     88, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -504,17 +481,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     24, PC =      0, 
-Predict =      0, IFID_Flush =      0
+cycle =     23, PC =     92, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -525,17 +502,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     25, PC =      4, 
-Predict =      0, IFID_Flush =      0
+cycle =     24, PC =     96, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -546,17 +523,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     26, PC =      8, 
-Predict =      0, IFID_Flush =      0
+cycle =     25, PC =    100, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -567,17 +544,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     27, PC =     12, 
-Predict =      0, IFID_Flush =      0
+cycle =     26, PC =    104, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -588,17 +565,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     28, PC =     16, 
-Predict =      0, IFID_Flush =      0
+cycle =     27, PC =    108, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -609,17 +586,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     29, PC =     20, 
-Predict =      0, IFID_Flush =      0
+cycle =     28, PC =    112, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -630,17 +607,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     30, PC =     24, 
-Predict =      0, IFID_Flush =      0
+cycle =     29, PC =    116, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -651,17 +628,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     31, PC =     28, 
-Predict =      0, IFID_Flush =      0
+cycle =     30, PC =    120, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -672,17 +649,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     32, PC =     32, 
-Predict =      0, IFID_Flush =      0
+cycle =     31, PC =    124, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -693,17 +670,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     33, PC =     32, 
-Predict =      0, IFID_Flush =      0
+cycle =     32, PC =    128, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -714,17 +691,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     34, PC =     36, 
-Predict =      0, IFID_Flush =      0
+cycle =     33, PC =    132, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -735,18 +712,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     35, PC =     40, 
-Predict =      0, IFID_Flush =      0
-ALU_out = 4294967295
+cycle =     34, PC =    136, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -757,18 +733,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     36, PC =      0, 
-Predict =      0, IFID_Flush =      0
-ALU_out =     10
+cycle =     35, PC =    140, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -779,17 +754,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     37, PC =      0, 
-Predict =      0, IFID_Flush =      0
+cycle =     36, PC =    144, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -800,17 +775,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     38, PC =      4, 
-Predict =      0, IFID_Flush =      0
+cycle =     37, PC =    148, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -821,17 +796,17 @@ Data Memory: 0x18 =      0
 Data Memory: 0x1C =      0
 
 
-cycle =     39, PC =      8, 
-Predict =      0, IFID_Flush =      0
+cycle =     38, PC =    152, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -839,20 +814,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     40, PC =     12, 
-Predict =      0, IFID_Flush =      0
+cycle =     39, PC =    156, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -860,20 +835,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     41, PC =     16, 
-Predict =      0, IFID_Flush =      0
+cycle =     40, PC =    160, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -881,20 +856,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     42, PC =     20, 
-Predict =      0, IFID_Flush =      0
+cycle =     41, PC =    164, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -902,20 +877,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     43, PC =     24, 
-Predict =      0, IFID_Flush =      0
+cycle =     42, PC =    168, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -923,20 +898,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     44, PC =     28, 
-Predict =      0, IFID_Flush =      0
+cycle =     43, PC =    172, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -944,20 +919,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     45, PC =     32, 
-Predict =      0, IFID_Flush =      0
+cycle =     44, PC =    176, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -965,20 +940,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     46, PC =     32, 
-Predict =      0, IFID_Flush =      0
+cycle =     45, PC =    180, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -986,20 +961,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     47, PC =     36, 
-Predict =      0, IFID_Flush =      0
+cycle =     46, PC =    184, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1007,21 +982,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     48, PC =     40, 
-Predict =      0, IFID_Flush =      0
-ALU_out = 4294967295
+cycle =     47, PC =    188, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1029,21 +1003,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     49, PC =      0, 
-Predict =      0, IFID_Flush =      0
-ALU_out =     10
+cycle =     48, PC =    192, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1051,20 +1024,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     50, PC =      0, 
-Predict =      0, IFID_Flush =      0
+cycle =     49, PC =    196, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1072,20 +1045,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     51, PC =      4, 
-Predict =      0, IFID_Flush =      0
+cycle =     50, PC =    200, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1093,20 +1066,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     52, PC =      8, 
-Predict =      0, IFID_Flush =      0
+cycle =     51, PC =    204, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1114,20 +1087,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     53, PC =     12, 
-Predict =      0, IFID_Flush =      0
+cycle =     52, PC =    208, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1135,20 +1108,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     54, PC =     16, 
-Predict =      0, IFID_Flush =      0
+cycle =     53, PC =    212, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1156,20 +1129,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     55, PC =     20, 
-Predict =      0, IFID_Flush =      0
+cycle =     54, PC =    216, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1177,20 +1150,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     56, PC =     24, 
-Predict =      0, IFID_Flush =      0
+cycle =     55, PC =    220, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1198,20 +1171,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     57, PC =     28, 
-Predict =      0, IFID_Flush =      0
+cycle =     56, PC =    224, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1219,20 +1192,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     58, PC =     32, 
-Predict =      0, IFID_Flush =      0
+cycle =     57, PC =    228, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1240,20 +1213,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     59, PC =     32, 
-Predict =      0, IFID_Flush =      0
+cycle =     58, PC =    232, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      4
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1261,20 +1234,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     60, PC =     36, 
-Predict =      0, IFID_Flush =      0
+cycle =     59, PC =    236, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1282,21 +1255,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     61, PC =     40, 
-Predict =      0, IFID_Flush =      0
-ALU_out = 4294967295
+cycle =     60, PC =    240, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1304,21 +1276,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     62, PC =      0, 
-Predict =      0, IFID_Flush =      0
-ALU_out =     10
+cycle =     61, PC =    244, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =      0
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1326,20 +1297,20 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
 
 
-cycle =     63, PC =      0, 
-Predict =      0, IFID_Flush =      0
+cycle =     62, PC =    248, 
+Predict =      1, IFID_Flush =      0
 Registers
-x0 =      0, x8  =      0, x16 =      0, x24 =     29
-x1 =      0, x9  =      0, x17 =      0, x25 =     16
-x2 =      0, x10 =      0, x18 =      0, x26 =      3
-x3 =      0, x11 =      0, x19 =      0, x27 =     29
-x4 =      0, x12 =      0, x20 =      0, x28 =      4
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
 x5 =      0, x13 =      0, x21 =      0, x29 =     58
 x6 =      0, x14 =      0, x22 =      0, x30 =     60
-x7 =      0, x15 =     -1, x23 =      0, x31 =     62
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
 Data Memory: 0x00 =      5
 Data Memory: 0x04 =      6
 Data Memory: 0x08 =     10
@@ -1347,6 +1318,27 @@ Data Memory: 0x0C =     18
 Data Memory: 0x10 =     29
 Data Memory: 0x14 =      0
 Data Memory: 0x18 =      0
-Data Memory: 0x1C =     29
+Data Memory: 0x1C =      0
+
+
+cycle =     63, PC =    252, 
+Predict =      1, IFID_Flush =      0
+Registers
+x0 =      0, x8  =      0, x16 =      0, x24 =    -24
+x1 =      0, x9  =      0, x17 =      0, x25 =    -25
+x2 =      0, x10 =      0, x18 =      0, x26 =    -26
+x3 =      0, x11 =      0, x19 =      0, x27 =    -27
+x4 =      0, x12 =      0, x20 =      0, x28 =     56
+x5 =      0, x13 =      0, x21 =      0, x29 =     58
+x6 =      0, x14 =      0, x22 =      0, x30 =     60
+x7 =      0, x15 =      0, x23 =      0, x31 =     62
+Data Memory: 0x00 =      5
+Data Memory: 0x04 =      6
+Data Memory: 0x08 =     10
+Data Memory: 0x0C =     18
+Data Memory: 0x10 =     29
+Data Memory: 0x14 =      0
+Data Memory: 0x18 =      0
+Data Memory: 0x1C =      0
 
 
